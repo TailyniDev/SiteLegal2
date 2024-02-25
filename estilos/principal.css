@@ -1,0 +1,51 @@
+:root {
+  --principal: #e768ed;
+  --secundaria: #f0b6d2;
+  --raio: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.4s;
+}
+body {
+  background: var(--secundaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#tatapilantra {
+  display: flex;
+  max-width: 600px;
+  background: white;
+  border-radius: var(--raio);
+  padding: 32px;
+  flex-flow: column;
+  text-align: center;
+  line-height: 24px;
+  align-items: center;
+}
+.nomelegal {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 150px;
+}
+.meubutao {
+  padding: 8px;
+  background: var(--principal);
+  border-radius: 12px;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  margin-top: 18px;
+  font-size: 14px;
+}
+.meubutao:hover {
+  background: var(--secundaria);
+}
+.meubutao > .iconi {
+  width: 24px;
+  margin-left: 8px;
+}
